@@ -1,0 +1,45 @@
+.menu_bar {
+  background-color: #000;
+  
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+} 
+
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo span {
+  color: #F6AE2D;
+}
+
+.menu_bar ul{
+  
+  list-style: none;
+  display: flex;
+
+}
+
+.menu_bar ul li{
+  padding: 10px 30px;
+  position: relative;
+}
+
+.menu_bar ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+  color: #0073ff;
+}

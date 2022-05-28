@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo1.jpg);
+
+
+}
+.menu_bar {
+	background-color: #000;
+	
+
+	height: 150px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5%;
+} 
+
+
+.logo {
+	color: #fff;
+	font-size: 30px;
+}
+
+.logo span {
+	color: #0073ff;
+}
+
+.t1 h1 {
+	color: #fff;
+}
+
+.main {
+
+	position: absolute;
+	height: 50px;
+	width: 40px;
+	top: 25%;
+	left:85%;
+	transform: translate(-5%, 5%);
+}

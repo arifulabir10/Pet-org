@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+h1 {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+img {
+height: 60px;
+}
+    
+.single-job-post {
+    box-shadow: 0 0 6px 1px #ddd;
+    display: flex;
+    margin: 100px;
+    padding: 40px;
+    position: relative;
+}
+.menu_bar {
+  background-color: #B3E5FF;
+  
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+} 
+
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo span {
+  color: #F6AE2D;
+}
+
+.menu_bar ul{
+  
+  list-style: none;
+  display: flex;
+
+}
+
+.menu_bar ul li{
+  padding: 10px 30px;
+  position: relative;
+}
+
+.menu_bar ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+  color: #0073ff;
+}
+
+.image {
+  margin-left:800px;
+/*  margin-bottom: 400px;*/
+  }
+
